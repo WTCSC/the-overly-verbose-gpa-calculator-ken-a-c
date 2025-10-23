@@ -1,39 +1,35 @@
-#The Overly 
+#The Overly Verbose Calculator
 
-print ("Welcome to the Overly Verbose GPA Calculator!")
+print("Welcome to the Overly Verbose GPA Calculator!")
 
-def put_in_classes(classes):
-    print(f"How many classes are you in? {classes}")
+def put_in_classes():
+    classes = int(input("How many classes are you in? "))
+    print(f"You are in {classes} classes.")
+    return classes
 
-def Enter_Grade(Grade):
-    v = []
+def enter_grades(num_classes):
+    grades = []
+    for i in range(num_classes):
+        grade = float(input(f"Enter grade {i+1} (0.0 - 4.0): "))
+        grades.append(grade)
+    return grades
 
-    v.append(int(input("Enter grade 1 (0.0-4.0):")))
-    v.append(int(input("Enter grade 2 (0.0-4.0):")))
-    v.append(int(input("Enter grade 3 (0.0-4.0):")))
-    v.append(int(input("Enter grade 4 (0.0-4.0):")))
-    v.append(int(input("Enter grade 5 (0.0-4.0):")))
-    v.append(int(input("Enter grade 6 (0.0-4.0):")))
-    
+# ---- Main Program ----
+num_classes = put_in_classes()
+grades = enter_grades(num_classes)
 
-    return v
+overall_gpa = sum(grades) / len(grades)
+print(f"Calculating... beep boop... Your current GPA is: {overall_gpa:.2f}")
 
+half = num_classes // 2
 
-print ("Calculating... beep boop... Your current GPA is: 3.30")
-
-Which semester do you want to analyze?
-1. First semester (first half of classes)
-2. Second semester (second half of classes)
-Enter 1 or 2: 2
-
-Second semester GPA: 3.43
-Overall GPA: 3.30
-Nice! Your second semester GPA is higher than your overall. You're trending upward!
-
-What's your goal GPA? 3.5
-
-Good news! You can reach your goal of 3.5 by improving just ONE grade:
-- If you raise your grade in class 3 from 2.8 to 4.0, your GPA would be 3.50
-- If you raise your grade in class 5 from 3.0 to 4.0, your GPA would be 3.40
-
-Time to hit the books!
+while True:
+    analyze = input("Enter 1 or 2: ").strip()
+    if analyze == "1":
+        print("Analyzing first semester...")
+        break
+    elif analyze == "2":
+        print("Analyzing second semester...")
+        break
+    else:
+        print("Invalid input. Please enter 1 or 2.")
