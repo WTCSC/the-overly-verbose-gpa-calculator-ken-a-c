@@ -52,9 +52,9 @@ Good news! You can reach your goal of 3.80 by improving just ONE grade:
 
 1. Create a grades list:
 
-- Make a list called grades with at least 5 grades on a 4.0 scale (e.g., 4.0, 3.3, 2.7).
+      - Make a list called grades with at least 5 grades on a 4.0 scale (e.g., 4.0, 3.3, 2.7).
 
-- You can either pre-fill it or ask the user to input the grades.
+      - You can either pre-fill it or ask the user to input the grades.
 
 2. Validate user input:
 
