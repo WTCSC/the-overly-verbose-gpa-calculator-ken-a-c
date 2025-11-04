@@ -50,25 +50,25 @@ Good news! You can reach your goal of 3.80 by improving just ONE grade:
 
 ## Requirements
 
-**<sup>1. Create a grades list:</sup>**
+###**1. Create a grades list:**
 
 Make a list called grades with at least 5 grades on a 4.0 scale (e.g., 4.0, 3.3, 2.7).
 
 You can either pre-fill it or ask the user to input the grades.
 
-**2. Validate user input:**
+###**2. Validate user input:**
 
 Grades must be numbers between 0.0 and 4.0.
 
 If invalid input is entered (letters, negatives, or numbers above 4.0), show an error and ask again.
 
-**3. Calculate overall GPA:**
+###**3. Calculate overall GPA:**
 
 Sum all grades, count them, and divide the sum by the count.
 
 Display the GPA with a fun or clear message.
 
-**4. Analyze semester GPA (using list slicing):**
+###**4. Analyze semester GPA (using list slicing):**
 
 Ask the user which semester to check (first half or second half of classes).
 
@@ -78,7 +78,7 @@ Calculate and display the semester GPA.
 
 Compare it to the overall GPA and tell the user if it improved, declined, or stayed the same.
 
-**5. Goal GPA analysis:**
+###**5. Goal GPA analysis:**
 
 Ask for a goal GPA (must be between 0.0 and 4.0).
 
