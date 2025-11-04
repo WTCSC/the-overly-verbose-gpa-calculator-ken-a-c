@@ -97,3 +97,7 @@ It calculates the overall GPA by averaging all grades.
 Users choose which semester to analyze, and the program calculates semester GPA.
 
 Users can set a goal GPA. The program checks if it’s achievable and suggests improvements if necessary.
+
+## Decision Tree
+
+<img width="451" height="319" alt="Screenshot 2025-11-03 182355" src="https://github.com/user-attachments/assets/a08697cc-d019-4f0f-9a1b-4d27a4a787c8" />
