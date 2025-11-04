@@ -52,41 +52,41 @@ Good news! You can reach your goal of 3.80 by improving just ONE grade:
 
 ###1. Create a grades list:
 
-Make a list called grades with at least 5 grades on a 4.0 scale (e.g., 4.0, 3.3, 2.7).
+  Make a list called grades with at least 5 grades on a 4.0 scale (e.g., 4.0, 3.3, 2.7).
 
-You can either pre-fill it or ask the user to input the grades.
+  You can either pre-fill it or ask the user to input the grades.
 
 ###2. Validate user input:
 
-Grades must be numbers between 0.0 and 4.0.
+  Grades must be numbers between 0.0 and 4.0.
 
-If invalid input is entered (letters, negatives, or numbers above 4.0), show an error and ask again.
+  If invalid input is entered (letters, negatives, or numbers above 4.0), show an error and ask again.
 
 ###3. Calculate overall GPA:
 
-Sum all grades, count them, and divide the sum by the count.
+  Sum all grades, count them, and divide the sum by the count.
 
-Display the GPA with a fun or clear message.
+  Display the GPA with a fun or clear message.
 
 ###4. Analyze semester GPA (using list slicing):
 
-Ask the user which semester to check (first half or second half of classes).
+  Ask the user which semester to check (first half or second half of classes).
 
-Slice the grades list to get that semester’s grades.
+  Slice the grades list to get that semester’s grades.
 
-Calculate and display the semester GPA.
+  Calculate and display the semester GPA.
 
-Compare it to the overall GPA and tell the user if it improved, declined, or stayed the same.
+  Compare it to the overall GPA and tell the user if it improved, declined, or stayed the same.
 
-###5. Goal GPA analysis:
+###Goal GPA analysis:
 
-Ask for a goal GPA (must be between 0.0 and 4.0).
+  Ask for a goal GPA (must be between 0.0 and 4.0).
 
-Check if the goal can be reached by improving only one grade to 4.0.
+  Check if the goal can be reached by improving only one grade to 4.0.
 
-Tell the user which grade(s) could be improved to meet the goal, or if multiple improvements are needed.
+  Tell the user which grade(s) could be improved to meet the goal, or if multiple improvements are needed.
 
-Congratulate the user if the goal is already met.
+  Congratulate the user if the goal is already met.
 
 ## How It Works
 
